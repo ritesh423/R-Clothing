@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
 
-const App = () => {
+import HomePage from "./pages/homepage/homepage.component";
+
+function App() {
   return (
     <div>
-      <h1>Hey there 👋</h1>
+      <HomePage />
     </div>
   );
-};
+}
 
 export default App;
