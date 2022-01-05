@@ -2,39 +2,35 @@ const INITIAL_STATE = {
   sections: [
     {
       title: "hats",
-      imageUrl:
-        "https://img.dtcn.com/image/themanual/best-hats-2020-800x800.jpg",
+      imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
       id: 1,
-      linkUrl: "hats",
+      linkUrl: "shop/hats",
     },
     {
       title: "jackets",
-      imageUrl:
-        "https://3.imimg.com/data3/AU/KI/MY-646899/men-s-jackets-500x500.jpg",
+      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
       id: 2,
-      linkUrl: "",
+      linkUrl: "shop/jackets",
     },
     {
       title: "sneakers",
-      imageUrl:
-        "https://media.gq.com/photos/5d93aa2c636d4800084025ae/16:9/pass/sneakers.jpg",
+      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
       id: 3,
-      linkUrl: "",
+      linkUrl: "shop/sneakers",
     },
     {
       title: "womens",
       imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
       size: "large",
       id: 4,
-      linkUrl: "",
+      linkUrl: "shop/womens",
     },
     {
       title: "mens",
-      imageUrl:
-        "https://www.incimages.com/uploaded_files/image/1920x1080/getty_507716250_226806.jpg",
+      imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
       size: "large",
       id: 5,
-      linkUrl: "",
+      linkUrl: "shop/mens",
     },
   ],
 };
