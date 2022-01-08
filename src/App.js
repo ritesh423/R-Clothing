@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route, Navigate } from "react-router-dom";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 
@@ -56,7 +56,7 @@ class App extends React.Component {
             path="/signin"
             render={() =>
               this.props.currentUser ? (
-                <Redirect to="/" />
+                <Navigate to="/" />
               ) : (
                 <SignInAndSignUpPage />
               )
