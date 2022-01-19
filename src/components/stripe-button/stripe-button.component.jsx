@@ -12,10 +12,10 @@ const StripeCheckoutButton = ({ price }) => {
   const onToken = (token) => {
     console.log(token);
     swal({
-      title: "Good job!",
-      text: "Payment Successful!",
+      title: "Payment Successful!",
+      text: "👍",
       icon: "success",
-      button: "ok",
+      button: "OK",
     });
   };
 
